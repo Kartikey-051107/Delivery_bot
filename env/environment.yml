@@ -1,0 +1,18 @@
+# Shared conda environment.
+# By the Electronics & Robotics Club, BITS Goa.
+#
+# Create it with:   conda env create -f environment.yml
+# Activate it with: conda activate rl
+name: rl
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - matplotlib
+  - pillow
+  - ffmpeg
+  - jupyter
+  - ipykernel
+  - tqdm
